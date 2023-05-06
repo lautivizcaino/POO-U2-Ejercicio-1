@@ -18,9 +18,6 @@ class Email:
         return self.__dominio
     def setContraseña(self,contra):
         self.__password=contra
-    
-    def obtenerDominio(self,dom):
-        pass
 
     def __str__(self):
         return ('( {}, {}, {}, {})').format(self.__idCuenta,self.__dominio,self.__tipoDominio,self.__password)
